@@ -1,0 +1,16 @@
+Create a detached working tree (https://stackoverflow.com/questions/12450245/getting-a-working-copy-of-a-bare-repository)
+
+git init --bare
+
+git config core.bare false
+git config core.worktree /somewhere/else/
+
+git checkout -f
+
+Copy a single file from a repository (https://unix.stackexchange.com/questions/97371/copy-a-single-file-from-local-git-repository)
+
+git archive --remote=file:///path/to/repository.git HEAD:path/to/directory filename | tar -x
+
+dependencies:
+ - git
+ - tar

@@ -6,33 +6,39 @@ Calling dothub will start the configuration wizard. Every command line argument 
 
 
 Start monitoring dotfiles from github:
+
 ```bash
 dothub init --repository username/reponame
 branch (hostname): 
 ```
 
 Start monitoring dotfiles from any git repo, creating a new branch named test:
+
 ```bash
 dothub init --repository https://hostname/reponame.git --branch test
 ```
 
-Start monitoring files from a different branch (not master)::
+Start monitoring files from a different branch (not master):
+
 ```bash
 dothub init --repository --origin mybranch username/reponame
 branch (hostname):
 ```
 
 Keeping files updated:
+
 ```bash
 dothub update
 ```
 
 Add a file (or directory) from:
+
 ```bash
 dothub add file.txt
 ```
 
 Remove file from monitoring (does not delete files):
+
 ```bash
 dothub remove file.txt
 ```
@@ -58,3 +64,5 @@ monitoring:
 #/etc/dothubrc
 # config: ~/.dothub
 ```
+
+

@@ -21,7 +21,7 @@ dothub init --repository https://hostname/reponame.git --branch test
 Start monitoring files from a different branch (not master):
 
 ```bash
-dothub init --repository --origin mybranch username/reponame
+dothub init --repository username/reponame --origin mybranch
 branch (hostname):
 ```
 

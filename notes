@@ -14,3 +14,13 @@ git archive --remote=file:///path/to/repository.git HEAD:path/to/directory filen
 dependencies:
  - git
  - tar
+
+https://www.atlassian.com/git/tutorials/dotfiles
+http://kreusch.com.br/blog/2013/12/03/manage-a-development-machine-with-ansible
+https://github.com/robbyrussell/oh-my-zsh
+https://blog.palcu.ro/2014/06/dotfiles-and-dev-tools-provisioned-by.html
+https://github.com/webpro/awesome-dotfiles
+https://dotfiles.github.io/
+https://alexpearce.me/2016/02/managing-dotfiles-with-stow/
+https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
+

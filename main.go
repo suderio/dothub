@@ -23,13 +23,13 @@ func main() {
 	case "update":
 		update()
 	default:
-		log.Printf("Command %q unknown", command)
+		log.Printf("Command %s unknown\n", command)
 	}
 }
 
 func initialize() {
-	fmt.Printf("git clone --bare %q", repository)
-	fmt.Printf("git checkout -b %q", branch)
+	fmt.Printf("git clone --bare %s\n", *repository)
+	fmt.Printf("git checkout -b %s\n", *branch)
 }
 
 func update() {
